@@ -42,8 +42,8 @@ const KnowledgeEngineeringSystem = () => {
       </div>
 
       {/* Main sections */}
-      <div className="relative z-10 max-w-7xl mx-auto px-6 pb-16">
-        <div className="grid md:grid-cols-2 gap-8 h-[600px]">
+      <div className="relative z-10 max-w-7xl mx-auto px-6 pb-8">
+        <div className="grid md:grid-cols-2 gap-8 h-[400px]">
           <SectionCard
             title="Career Guidance"
             description="Discover your ideal career path with personalized recommendations. Get insights into required skills, education pathways, and industry trends tailored to your interests and goals."
@@ -79,7 +79,7 @@ const KnowledgeEngineeringSystem = () => {
         <div className="max-w-6xl mx-auto px-6 py-8">
           <div className="text-center">
             <p className="text-white/60 mb-4">
-              University Knowledge Engineering Project
+              University of Information Technology - Knowledge Engineering Project
             </p>
             <div className="flex items-center justify-center gap-8 text-sm text-white/40">
               <span>AI-Powered Career Intelligence</span>
