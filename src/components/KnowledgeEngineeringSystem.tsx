@@ -24,11 +24,6 @@ const KnowledgeEngineeringSystem = () => {
       {/* Header */}
       <div className="relative z-10 pt-16 pb-12">
         <div className="max-w-6xl mx-auto px-6 text-center">
-          <div className="inline-flex items-center gap-3 mb-6 px-6 py-3 bg-white/10 backdrop-blur-sm rounded-full border border-white/20">
-            <div className="w-3 h-3 bg-accent rounded-full animate-glow" />
-            <span className="text-white/80 font-medium">Knowledge Engineering System</span>
-          </div>
-          
           <h1 className="text-5xl md:text-6xl font-bold text-white mb-6 leading-tight">
             AI-Powered Career
             <span className="block text-accent">Guidance Platform</span>

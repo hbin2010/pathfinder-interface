@@ -32,7 +32,7 @@ const SectionCard = ({
 
   if (isExpanded) {
     return (
-      <div className="fixed inset-0 z-[100] animate-expand">
+      <div className="fixed inset-0 z-[9999] animate-expand bg-black/10 backdrop-blur-sm">
         <div className={cn(
           "h-full w-full p-8",
           variant === 'career' ? 'bg-career-gradient' : 'bg-developer-gradient'
